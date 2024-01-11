@@ -45,3 +45,35 @@ header ul li{
 
 /* Fim cabeçalho */
 
+/* Inicio Interface-Topo */
+
+.topo h1{
+    color: aliceblue;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo .interface p{
+    color: aliceblue;
+    margin: 30px 0;
+}
+
+.interface{
+    margin: auto;
+    max-width: 1280px;
+}
+
+.flex{
+    display: flex;
+}
+
+section.topo{
+    padding: 40px 4%;
+}
+
+section.topo .flex{
+    align-items:center;
+    justify-content: center;
+    gap: 90px;
+}
+
